@@ -16,8 +16,8 @@ public class game extends role {
     }
     void ShoutMyName() {
         //method member
-        System.out.println("MY NAME IS " + getMyName() + "!!!!!!!!!!!"); //於類別內呼叫getMyName函數
-        System.out.println("MY weapon IS " + getweaponName() + "!!!!!!!!!!!");
-        System.out.println("i use " + getMovesName() + "!!!!!!!!!!!");
+        System.out.println("NAME IS " + getMyName()); //於類別內呼叫getMyName函數
+        System.out.println("weapon IS " + getweaponName());
+        System.out.println("use " + getMovesName());
     }
 }
