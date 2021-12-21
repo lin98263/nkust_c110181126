@@ -15,7 +15,7 @@ public class person {
         game Robinhood = new game(100, 200, 500);
         Robinhood.getCurrentStatus();
         Robinhood.name = "Robinhood";
-        Robinhood.weapon = "bow";
+        Robinhood.weapon = "bow nmsl";
         Robinhood.Moves = "Continuous shooting";
         Robinhood.ShoutMyName();
     }
