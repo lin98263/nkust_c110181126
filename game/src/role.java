@@ -12,9 +12,7 @@ public class role {
         ATTACK = roleATTACK;
     }
     void getCurrentStatus() {
-        System.out.println("HP:" + HP);
-        System.out.println("MP:" + MP);
-        System.out.println("ATTACK:" + ATTACK);
+        System.out.println("(HP:" + HP+"MP:" + MP+"ATTACK:" + ATTACK+")");
     }
 
 }
