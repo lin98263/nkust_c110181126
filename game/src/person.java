@@ -16,7 +16,7 @@ public class person {
         Magician.getCurrentStatus();
         Magician.name = "Magician";
         Magician.weapon = "God's Staff";
-        Magician.Moves = "God's Staff";
+        Magician.Moves = "nmsl";
         Magician.ShoutMyName();
     }
 }
