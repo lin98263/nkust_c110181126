@@ -1,22 +1,22 @@
 public class person {
     public static void main(String[] args) {
-        game Merlin = new game(30, 400, 1000);
-        Merlin.getCurrentStatus();
-        Merlin.weapon = "crutch";
-        Merlin.Moves = "lightning";
-        Merlin.name = "Merlin";
-        Merlin.ShoutMyName();
-        game Arthur = new game(2000, 50, 100);
-        Arthur.getCurrentStatus();
-        Arthur.name = "Arthur";
-        Arthur.weapon = "sword";
-        Arthur.Moves = "Sprint";
-        Arthur.ShoutMyName();
-        game Robinhood = new game(100, 200, 500);
-        Robinhood.getCurrentStatus();
-        Robinhood.name = "Robinhood";
-        Robinhood.weapon = "bow nmsl";
-        Robinhood.Moves = "Continuous shooting";
-        Robinhood.ShoutMyName();
+        game Archer = new game(15, 30, 10);
+        Archer.getCurrentStatus();
+        Archer.name = "Archer";
+        Archer.weapon = "Poseidon's bow";
+        Archer.Moves = "darkness  Shoot";
+        Archer.ShoutMyName();
+        game berserker = new game(20, 15, 5);
+        berserker.getCurrentStatus();
+        berserker.name = "berserker";
+        berserker.weapon = "Sun Axe";
+        berserker.Moves = "Double Slash";
+        berserker.ShoutMyName();
+        game Magician = new game(10, 40, 30);
+        Magician.getCurrentStatus();
+        Magician.name = "Magician";
+        Magician.weapon = "God's Staff";
+        Magician.Moves = "God's Staff";
+        Magician.ShoutMyName();
     }
 }
